@@ -204,6 +204,7 @@ spec:
       - name: custom-ingressgateway
         label:
           istio: custom-ingressgateway
+          app: custom-ingressgateway
         namespace: custom-gateways
         enabled: true
         k8s:
